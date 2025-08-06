@@ -49,6 +49,7 @@ public class CustomMenuPlugin extends Plugin
         replacements.put("chop down", config.chopDownText());
         replacements.put("wield", config.wieldText());
         replacements.put("wear", config.wearText());
+        replacements.put("trade", config.tradeText());
 
         for (Map.Entry<String, String> repl : replacements.entrySet())
         {
